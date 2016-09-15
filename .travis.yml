@@ -4,6 +4,6 @@ services:
 - docker
 install:
 - export SAVE=$PWD
-- docker run --rm -v $SAVE/scripts:/scripts ubuntu /scripts/build.sh
+- docker run --rm -v $SAVE/scripts:/scripts -v $SAVE/pkg:/pkg ubuntu /scripts/build.sh
 script:
-- return 1
+- return 0
