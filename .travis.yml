@@ -1,9 +1,9 @@
+language: generic
 sudo: false
 services:
 - docker
 install:
-- export SAVE=$PWD slim=".slim"
+- export SAVE=$PWD
 - docker run --rm -v $SAVE/scripts:/scripts ubuntu /scripts/build.sh
-- ./scripts/build.sh
 script:
 - return 1
