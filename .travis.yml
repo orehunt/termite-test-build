@@ -17,5 +17,6 @@ deploy:
   api_key:
     secure: YtGWA9cWnSuM54prp2gezGDJOdvlmH3Atj5mEh3RI3Gg0s/LhaAdK5b2sgpg+siH8qKxmf12u+h/42Szg7fLTz0aa4Ycof9xdf+WFXty0UE1044FZL7TMmCpo+YEWn10YbQ0Yx1tRfqpxsuWuP1mTzp3M3PkIDSx5DuD1uAjQeR44oiexovXNcsGb2Wg6VC7e5c0Uj9kj5WTAsHaZ6F5rMN/+QAPwPZQ3uaM4s7D1MecJ8tWyaghGmj0SoOveR1d0s1h7Q3aJFbshaRkocpvcrzozGhKm9IaMsQX236j+xJviK111cI/or1/lcXqm71ferBJGfFlDMa1/7TlCoefq+Cuudi26EzvwnPrHgodCo621pNDvZZ/NMkM13uScbskWwUSO4E5aiGocnKgDhUul+eqenja8PK2CP2RUSe0bnwDT7K+5MZb9VzClO3KDOn3RIYgdqDZYyLYPNeRtEfsXulG+i9PvfXXNeSUFMuohST0SYwjHhLUSUlbV+ZnBsC5dQG1nBgbNyTAjCWJSULkdppLrb6gZ2INuWpP84YWp+JUhXSSS9gold1yp/2AdDfe/9WQ8LZeND5b8iW/NLPko+EJo+UkHAqvJ/zKR8d0iLA6AlqWEHYA9BYQ8AHsFx/i1WHDcyqZj5Ofc1dborrJN0fbhmSUp6rAPGDsGhSuT6s=
   file: termite.tar.gz
+  skip_cleanup: true
   on:
-    repo: natostanco/termite-test-build
+    tags: true
